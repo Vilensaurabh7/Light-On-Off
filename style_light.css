@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+     font-size: 62.5%; /* 100%=16px=1rem now 1rem=10px--> 1px=1/10rem by default*/
+     display: block;
+     background-color: rgb(241, 240, 232);
+}
+.container{
+    position: fixed;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: capitalize;
+    background-color: aquamarine;
+    padding: 1.5rem;
+    margin:7rem 9rem 9.5rem 29.5rem;
+    width: 75rem;
+   height: 45rem;
+    background-size: cover;
+
+}
+#image{
+    width:17.5rem;
+    border-radius: 2rem;
+     margin-top: 3.3rem;
+     margin-bottom: 7rem;
+    /* height: .5rem; */
+}
+button{
+   font-size: 2rem;
+   border-radius: 1.3rem;
+   padding: .5rem 1.4rem 0.5rem .5rem;
+   background-color: rgb(224, 222, 219);
+   text-transform: capitalize;
+   margin-right: 5rem;
+    font-weight: bolder;
+}
+#myBtn{
+    margin-left: 5rem;
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+    background-color: khaki;
+}
+/* @media screen(max-width 750px) {
+    html{
+        font-size:55%;
+    }
+}
+@media screen(max-width 950px) {
+    html{
+        font-size:55%;
+    }
+} */
+@media (max-width:998px){
+    html{
+      font-size: 37%;
+      color: blue;
+    }
+}
+@media (max-width:750px){
+    html{
+      font-size: 24%;
+      color: rgb(252, 8, 110);
+    }
+}
+@media (max-width:420px){
+    html{
+      font-size: 15%;
+      color: rgb(252, 8, 110);
+    }
+}
